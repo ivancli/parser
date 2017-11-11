@@ -22,6 +22,7 @@ abstract class ParserContract implements ParserInterface
     public function setContent($content)
     {
         $this->content = $content;
+        return $this;
     }
 
     /**
@@ -32,5 +33,6 @@ abstract class ParserContract implements ParserInterface
     public function setOptions($options)
     {
         $this->options = $options;
+        return $this;
     }
 }

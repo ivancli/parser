@@ -15,14 +15,14 @@ interface ParserInterface
     /**
      * set content property
      * @param $content
-     * @return void
+     * @return self
      */
     public function setContent($content);
 
     /**
      * set options property needed for extraction.
      * @param $options
-     * @return void
+     * @return self
      */
     public function setOptions($options);
 
